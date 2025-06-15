@@ -51,7 +51,7 @@ public class STUDENT_GRADE_CALCULATOR {
         System.out.println("------------------------------");
         System.out.println("Total Marks        : " + totalMarks + " / " + (numSubjects * 100));
         System.out.printf("Average Percentage : %.2f%%\n", average);
-        System.out.println("🎓 Grade            : " + grade);
+        System.out.println(" Grade            : " + grade);
         System.out.println("------------------------------");
         System.out.println("Well done and keep learning!");
 
