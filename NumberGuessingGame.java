@@ -63,14 +63,14 @@ public class NumberGuessingGame {
                 System.out.println("Out of attempts! The number was: " + secretNumber);
             }
 
-            System.out.print("\n🔁 Want to play another round? (yes/no): ");
+            System.out.print("\n Want to play another round? (yes/no): ");
             String response = scanner.nextLine().trim().toLowerCase();
             playAgain = response.equals("yes") || response.equals("y");
             System.out.println();
         }
 
-        System.out.println("🎮 Game Over. You played " + roundsPlayed + " round(s).");
-        System.out.println("🏆 Final Score: " + totalScore + " points.");
+        System.out.println(" Game Over. You played " + roundsPlayed + " round(s).");
+        System.out.println(" Final Score: " + totalScore + " points.");
         System.out.println("Thanks for playing! 👋");
         scanner.close();
     }
