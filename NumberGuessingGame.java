@@ -71,7 +71,7 @@ public class NumberGuessingGame {
 
         System.out.println(" Game Over. You played " + roundsPlayed + " round(s).");
         System.out.println(" Final Score: " + totalScore + " points.");
-        System.out.println("Thanks for playing! 👋");
+        System.out.println("Thanks for playing!");
         scanner.close();
     }
 }
